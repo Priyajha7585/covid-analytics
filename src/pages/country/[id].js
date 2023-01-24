@@ -1,17 +1,6 @@
 import Layout from "@/src/components/Layout/Layout";
 import { useEffect, useState } from "react";
 import styles from './Country.module.css';
-import covid from './Covid-Analytics.gif'
-import Image from "next/image";
-
-const getCountry = async(id) => {
-    const res = await fetch(`https://disease.sh/v3/covid-19/countries/${id}`);
-    // const res = await fetch(`https://data.covid19india.org/data.json`);
-    const country = await res.json();
-    // const obj = state['statewise'].find(o=>o.state===id)
-    // console.log(state['statewise'])
-    return country;
-}
 
 const Country = ({country}) => {
 
