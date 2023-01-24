@@ -1,6 +1,7 @@
 .overview_panel img{
-    /* width: 100%; */
+    width: 100%;
     border-radius: 4px;
+    /* max-width: 300px; */
 }
 
 .overview_panel{
@@ -8,6 +9,7 @@
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     background-color: var(--background-color-light);
+    align-content: center;
 }
 
 .overview_name{
@@ -97,10 +99,11 @@
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap:  24px;
+        
     }
     .container_left{
         grid-column: 1 / span 4;
-
+        /* justify-content: center; */
     }
     .container_right{
         grid-column: 5 / span 8;
