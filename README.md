@@ -2,20 +2,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Priyajha7585/covid-analytics">
     <!-- <img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" alt="Logo" width="80" height="80"> -->
-    <img src="./src/assets/Shape.png" alt="Logo" width="80" height="80">
+    <img src="./src/components/Layout/coronavirus.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">File-System</h3>
+  <h3 align="center">Covid-Analytics</h3>
 
   <p align="center">
-    An awesome file management system on Web.
+    An awesome covid analytics project countrywise.
     <br />
     <br />
-    <a href="https://file-system-by-priya-jha.vercel.app/">View Demo</a>
+    <a href="https://covid-analytics-by-priya-jha.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/Priyajha7585/file-system/issues">Report Bug</a>
+    <a href="https://github.com/Priyajha7585/covid-analytics/issues">Report Bug</a>
     <!-- ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
@@ -28,19 +28,19 @@
 ## About The Project
 
 <br/>
-
-<img src="src/assets/Screenshot.png" alt="Logo" width="100%" height="450" />
+<img src="./src/components/Layout/2023-02-05.png" alt="Logo" width="100%" height="450" />
+<img src="./src/components/Layout/2023-02-04 (2).png" alt="Logo" width="100%" height="450" />
 
 <br/>
-This is a Fullstack File Management Project.
+This is a covid-analytics projects to show covid data countrywise.
 <br/><br>
 
 Features:<br>
-* User can navigate through folders
-* User can create unlimited files and folders
-* User can view the details of a file or folder
-* User cal delete the file or folder
-* Search functionality is there
+* Data sorting, filtering
+* Responsive layout without any CSS framework
+* Dark/Light Mode
+* Server side rendering
+* Deployed on vercel
 
 <br/>
 
@@ -58,7 +58,6 @@ Features:<br>
 * ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 * ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -81,7 +80,7 @@ Run these commands in your terminal
 1. Go to your terminal
 2. Clone the repo
    ```sh
-   git clone https://github.com/Priyajha7585/file-system.git
+   git clone https://github.com/Priyajha7585/covid-analytics.git
    ```
 3. Install NPM packages
    ```sh
